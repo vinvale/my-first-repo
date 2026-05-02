@@ -133,62 +133,6 @@
       padding: 24px 0;
     }
 
-    /* ニュースセクション */
-    .news-section {
-      margin-top: 40px;
-      border-top: 2px solid #e5e7eb;
-      padding-top: 28px;
-    }
-
-    .news-section h2 {
-      font-size: 1.1rem;
-      color: #1a1a2e;
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .news-meta {
-      font-size: 0.78rem;
-      color: #9ca3af;
-      margin-bottom: 16px;
-    }
-
-    .news-item {
-      padding: 14px 0;
-      border-bottom: 1px solid #f3f4f6;
-    }
-
-    .news-item:last-child {
-      border-bottom: none;
-    }
-
-    .news-item a {
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: #4f46e5;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 4px;
-      line-height: 1.4;
-    }
-
-    .news-item a:hover {
-      text-decoration: underline;
-    }
-
-    .news-item .news-date {
-      font-size: 0.75rem;
-      color: #9ca3af;
-      margin-bottom: 4px;
-    }
-
-    .news-item .news-summary {
-      font-size: 0.85rem;
-      color: #6b7280;
-      line-height: 1.5;
-    }
   </style>
 </head>
 <body>
@@ -200,69 +144,6 @@
     </div>
     <ul id="taskList"></ul>
     <p class="empty" id="emptyMsg">タスクがありません</p>
-    <!-- MOBILE_NEWS_START -->
-    <div class="news-section">
-      <h2>📡 モバイルネットワーク最新ニュース</h2>
-      <p class="news-meta">最終更新: 2026-04-29 12:00 〜 現在（11件）</p>
-      <div class="news-list">
-        <div class="news-item">
-          <span class="news-date">2026-04-29</span>
-          <a href="https://5gstore.com/blog/2026/04/29/carrier-competition-att-verizon-q1-2026/" target="_blank" rel="noopener">AT&T、Q1 2026でVerizonを上回る——新規契約30万件・収益も好調</a>
-          <p class="news-summary">AT&TがQ1 2026決算でVerizonを上回り、新規ポストペイドフォン契約約30万件を獲得。無線サービス収入は前年比1.7%増の169.4億ドル、機器収入は9.3%増と好調。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-28</span>
-          <a href="https://www.t-mobile.com/news/business/business-internet-with-superbroadband" target="_blank" rel="noopener">T-Mobile、5G AdvancedとStarlinkを統合した「SuperBroadband」を企業向けに発表</a>
-          <p class="news-summary">T-Mobileが5G AdvancedネットワークとStarlink衛星ブロードバンドを組み合わせた「SuperBroadband」を企業向けに発表。冗長性・カバレッジ・運用の簡素化を実現する次世代ビジネスインターネット。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-27</span>
-          <a href="https://jetstream.blog/2026/04/27/docomo-5g-area-map-update-20260427/" target="_blank" rel="noopener">NTTドコモ「docomo Starlink Direct」4月27日提供開始——全プラン無料</a>
-          <p class="news-summary">ドコモがSpaceXのStarlink衛星を活用したスマホ直接通信サービスを開始。全料金プラン対象で無料提供。山間部・離島・海上でのテキスト通信や緊急速報受信が可能に。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-27</span>
-          <a href="https://www.rcrwireless.com/20260427/sponsored/qualcomm-ntn-integration" target="_blank" rel="noopener">Qualcomm、6GへのNTN（非地上系ネットワーク）とTNの統合を推進</a>
-          <p class="news-summary">QualcommがNon-Terrestrial Network（NTN）の性能向上と地上系ネットワーク（TN）との統合を推進。衛星通信を6Gアーキテクチャのコアコンポーネントとして統一エアインターフェースに組み込む方針を示した。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-21</span>
-          <a href="https://www.bloomberg.com/news/articles/2026-04-21/deutsche-telekom-weighs-full-combination-with-t-mobile" target="_blank" rel="noopener">Deutsche Telekom、T-Mobile USとの完全統合を検討——世界最大の通信会社へ</a>
-          <p class="news-summary">53%の株式を保有するDeutsche TelekomがT-Mobile USとの持株会社方式による完全統合を初期協議中。実現すれば約3,000億ドル規模で史上最大のM&A案件となる見込み。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-21</span>
-          <a href="https://www.openpr.com/news/4493793/2026-global-6g-conference-opens-in-nanjing-advancing-the-future" target="_blank" rel="noopener">南京で2026年グローバル6Gカンファレンス開催——AI×6Gの工学的実装が焦点</a>
-          <p class="news-summary">南京で2026年グローバル6Gカンファレンスが開幕。標準化前定義と産業エコシステム育成が並行進行し、AIと6Gの双方向連携が概念から工学実装段階へ移行していることが確認された。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-20</span>
-          <a href="https://www.softbank.jp/sbnews/entry/20260420_02" target="_blank" rel="noopener">ソフトバンク、"Natural AI Phone" と「Daredemo AI」を発表</a>
-          <p class="news-summary">ソフトバンクがAI端末「Natural AI Phone」（4月24日発売、国内独占）と新AIサービス「Daredemo AI」を発表。5G普及期に向けAIをコア体験として位置づける戦略を打ち出した。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">不明（2026年4月）</span>
-          <a href="https://www.lightreading.com/wireless/5g" target="_blank" rel="noopener">Nokia、HPEからJuniper RIC技術をライセンス取得——Open RAN強化</a>
-          <p class="news-summary">NokiaがHPEからJuniper Networks のRAN Intelligent Controller（RIC）技術をライセンス取得し、開発チーム45名も統合。MantaRay SMOプラットフォームにAI自動化を追加し、マルチベンダー5G・Open RAN対応を強化。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">不明（2026年4月）</span>
-          <a href="https://www.rcrwireless.com/category/6g" target="_blank" rel="noopener">Verizon、「6G Innovation Forum」を設立——主要メーカー5社が創設パートナーに</a>
-          <p class="news-summary">VerizonがEricsson・Meta・Nokia・Samsung・Qualcommを創設パートナーに迎え「Verizon 6G Innovation Forum」を設立。固定無線アクセス（FWA）を6Gの主要ユースケースとして位置付け、エコシステム構築を本格化。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">不明（2026年4月）</span>
-          <a href="https://www.fierce-network.com/" target="_blank" rel="noopener">Cape、プライバシー特化型モバイルキャリアとしてシリーズC 1億ドルを調達</a>
-          <p class="news-summary">米国のプライバシーファーストキャリア「Cape」がBain Capital VenturesとIVP主導でシリーズC 1億ドルを調達。同社はプライバシーを核心に据えた通信事業者として注目を集めている。</p>
-        </div>
-        <div class="news-item">
-          <span class="news-date">2026-04-27</span>
-          <a href="https://jetstream.blog/2026/04/27/docomo-5g-area-map-update-20260427/" target="_blank" rel="noopener">ドコモ「docomo 5G」エリアマップ更新（2026年4月27日）</a>
-          <p class="news-summary">NTTドコモが4月27日にdocomo 5Gのサービスエリアマップを更新。4月19日時点のカバレッジを反映したもので、引き続き5Gエリアの拡大が継続中。</p>
-        </div>
-      </div>
-    </div>
-    <!-- MOBILE_NEWS_END -->
   </div>
 
   <script>
